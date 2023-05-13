@@ -1,0 +1,103 @@
+{
+    "powers": [
+        {
+            "name":"Attunement to Grand Stair",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name": "Pass Through Door", "cost" : 1},
+                {"name": "Follow Path", "cost": 2},
+                {"name":"Search Through Worlds", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Control of Gossamer Reality",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Mold Gossamer Matter", "cost" : 1},
+                {"name":"Mold Gossamer Creatures", "cost" : 2},
+                {"name":"Mold Gossamer Reality", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Healing",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Self Healing", "cost" : 1},
+                {"name":"Rapid Healing", "cost" : 2},
+                {"name":"Regeneration", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Shape-shift",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Alternate Form", "cost" : 1},
+                {"name":"Named and Numbered Forms", "cost" : 2},
+                {"name":"Limited Shape-shift", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Contains an icon",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Contains an Icon", "cost" : 1},
+                {"name":"Contains a Set of Icons", "cost" : 2},
+                {"name":null, "cost" : 0}
+            ]
+        },
+        {
+            "name":"True Name",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"True Name is Known", "cost" : 1},
+                {"name":"True Name is Warded", "cost" : 2},
+                {"name":"True Name is Secret", "cost" : 4}
+            ]   
+        },
+        {
+            "name":"Cantrips",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Contains a Cantrip", "cost" : 1},
+                {"name":"Contains Named and Numbered Cantrips", "cost" : 2},
+                {"name":null, "cost" : 0}
+            ]
+        },
+        {
+            "name":"Spell Storage",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Capable of Hanging Spells", "cost" : 1},
+                {"name":"Capable of Hanging Named and Numbered Spells", "cost" : 2},
+                {"name":"Capable of Hanging and Using Spells", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Unconventional Ability",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Minor Ability", "cost" : 1},
+                {"name":"Significant Ability", "cost" : 2},
+                {"name":"Major Ability", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Tied to a Power",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Connected to Power", "cost" : 1},
+                {"name":"Linked to Power", "cost" : 2},
+                {"name":"Integral to Power", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Transfer Power",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Transfer Power", "cost" : 10},
+                {"name":null, "cost" : 0},
+                {"name":null, "cost" : 0}
+            ]
+        }
+    ]
+}

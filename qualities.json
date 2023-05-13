@@ -1,0 +1,94 @@
+{
+    "qualities": [
+        {
+            "name":"Vitality",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Animal Vitality", "cost" : 1}, 
+                {"name":"Double Vitality", "cost" : 2}, 
+                {"name":"Immense", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Movement",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Mobility", "cost" : 1}, 
+                {"name":"Double Speed", "cost" : 2}, 
+                {"name":"Engine Speed", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Stamina",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Superior Stamina", "cost" : 1}, 
+                {"name":"Paragon Stamina", "cost" : 2}, 
+                {"name":"Tireless Stamina", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Aggresion",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Combat Training", "cost" : 1}, 
+                {"name":"Combat Reflexes", "cost" : 2}, 
+                {"name":"Combat Mastery", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Damage",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Hardened", "cost" : 1}, 
+                {"name":"Double Damage", "cost" : 2}, 
+                {"name":"Deadly Damage", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Damage Resistance",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Resistant to Normal Weapons", "cost" : 1}, 
+                {"name":"Resistant to Firearms", "cost" : 2}, 
+                {"name":"Resistant to Conventional Weapons", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Intelligence",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Able to Speak", "cost" : 1}, 
+                {"name":"Able to Speak and Reason", "cost" : 2}, 
+                {"name":"Able to Speak in Tounges and Voices", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Psychic Sensitivity",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Psychic Sensitivity", "cost" : 1},
+                {"name":"Danger Sensitivity", "cost" : 2}, 
+                {"name":"Extraodinary Psychic Sensitivity", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Psychic Defence",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Psychic Resistance", "cost" : 1}, 
+                {"name":"Psychic Neutral", "cost" : 2}, 
+                {"name":"Psychic Barrier", "cost" : 4}
+            ]
+        },
+        {
+            "name":"Transfer Quality",
+            "options":[
+                {"name":"None", "cost" : 0},
+                {"name":"Transfer Quality", "cost" : 5}, 
+                {"name":null, "cost" : 0}, 
+                {"name":null, "cost" : 0}
+            ]
+        }
+    ]
+}

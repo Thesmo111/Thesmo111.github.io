@@ -1,0 +1,163 @@
+*{
+    font-weight: normal;
+}
+
+div {
+    padding: 5px;
+    border-radius: 15px;
+    border-style: solid;
+}
+
+#timeDisplay, #selectedDisplay, #levelDisplay, .entryDiv {
+    background-color: white;
+}
+
+.wrapper{
+    background-color: #e9f8e0;
+    width: 95%;
+    margin: auto;
+    border-color: #ECD695;
+}
+
+div .options{
+    border: 0px;
+    display:inline-table;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+
+div .qualityDisplay{
+    border: 0px;
+    float: left;
+    width: 48%;
+    clear: left;
+
+}
+
+div .powerDisplay{
+    border: 0px;
+    float: right;
+    width: 48%; 
+    clear: right;
+}
+
+div .optionWrapper{
+    border: 0px;
+    min-height:90px;
+    padding: 0px;
+}
+
+label {
+    margin-bottom: 3px;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.optionNames {
+    font-weight: bold;
+}
+
+.entryDiv {
+    margin-bottom: 5px;
+    border-color: #ECD695;
+}
+
+div .displayWrapper{
+    border: 0px;
+    display:inline-table;
+    width: 100%;
+    padding: 0px;
+    text-align: justify;
+}
+
+div #selectedDisplay{
+    float: left;
+    width: 35%;
+    margin: 3px;
+    text-align: justify;
+    border-color: darkgoldenrod;
+    overflow: auto;
+    table-layout:fixed;
+}
+
+div #levelDisplay{
+    float: right;
+    width: 60%;
+    margin: 3px;
+    border-color: darkgoldenrod;
+}
+
+div #timeDisplay{
+    margin: 2px;
+    border-color: darkgoldenrod;
+    clear: both;
+    font-weight: bold;
+}
+
+#timeDisplayText{
+    font-weight: bold;
+}
+
+label.otherOptions {
+    display:inline-block;
+    margin-right: 20px;
+}
+
+.enchantmentOptions{
+    border: 0px;
+}
+
+#displayTable, #headerTable{
+    table-layout:fixed;
+    width: 100%;
+    max-height: inherit;
+    word-wrap: auto;
+}
+
+#enchantCell{
+    font-weight: bold;
+    float: left;
+}
+#costCell, .costCell{
+    width: 100px;
+    text-align: right;
+}
+
+#costCell{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+    .wrapper{
+        width: 100%;
+    }
+
+    div .qualityDisplay{
+        width: 100%;
+        clear: both;
+    }
+
+    div .powerDisplay{
+        width: 100%;
+        clear: both;
+    }
+
+    div #selectedDisplay{
+        width: 98%;
+        margin: auto;
+        float: none;
+        clear: both;
+    }
+
+    div #levelDisplay{
+        width: 98%;
+        margin:auto;
+        float: none;
+        clear: both;
+    }
+}

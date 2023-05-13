@@ -1,0 +1,138 @@
+{
+    "comment1" : "Multipliers allow the user to creat multiple items, but in return they multiply how long it takes to create an item by a factor of (multiplier)",
+    "multipliers" : [
+        {
+            "name" : "Unique (1)",
+            "multiplier" : 1
+        },
+        {
+            "name" : "Named and Numbered (12)",
+            "multiplier" : 2
+        },
+        {
+            "name" : "Horde (50)",
+            "multiplier" : 3
+        },
+        {
+            "name" : "Worldwide (500)",
+            "multiplier" : 4
+        },
+        {
+            "name" : "Cross-world Persistent (10 000)",
+            "multiplier" : 5
+        },
+        {
+            "name" : "Ubiquitous",
+            "multiplier" : 6
+        }
+    ],
+
+    "comment2" : "Enchantment Level chosen by the user. They each have their own multiplier and preperation time. The format is based around 60 mins which make up an hour",
+    "enchantLevels" : [
+        {
+            "name" : "Shape Gossamer Material",
+            "multiplier" : 1,
+            "prepTime" : 0
+        },
+        {
+            "name" : "Empowerment",
+            "multiplier" : 1,
+            "prepTime" : 0.5
+        },
+        {
+            "name" : "Original World (lvl 1)",
+            "multiplier" : 1,
+            "prepTime" : 12
+        },
+        {
+            "name" : "Similar Worlds (lvl 2)",
+            "multiplier" : 2,
+            "prepTime" : 24
+        },
+        {
+            "name" : "All Worlds (lvl 3)",
+            "multiplier" : 4,
+            "prepTime" : 48
+        },
+        {
+            "name" : "Universal (lvl 4)",
+            "multiplier" : 8,
+            "prepTime" : 96
+        },
+        {
+            "name" : "Permament (lvl 5)",
+            "multiplier" : 16,
+            "prepTime" : 168
+        }
+    ],
+
+    "comment3" : "Power level affects how long each point of qualities and powers will take to enchant. The numbers are multipliers. For example 10 will mean 60 * 10",
+    "powerLevel" : [
+        {
+            "name" : "Enchantment",
+            "shapeGossamer" : [
+                {"qualityTime" : 5},
+                {"powerTime" : 10}
+            ],
+            "empowerment" : [
+                {"qualityTime" : 10},
+                {"powerTime" : 60}
+            ],
+            "leveled" : [
+                {"qualityTime" : 60},
+                {"powerTime" : 1440}
+            ]
+        },
+        {
+            "name" : "Advanced Enchantment",
+            "shapeGossamer" : [
+                {"qualityTime" : 2},
+                {"powerTime" : 5}
+            ],
+            "empowerment" : [
+                {"qualityTime" : 5},
+                {"powerTime" : 30}
+            ],
+            "leveled" : [
+                {"qualityTime" : 45},
+                {"powerTime" : 1080}
+            ]
+            
+        },
+        {
+            "name" : "Exalted Enchantment",
+            "shapeGossamer" : [
+                {"qualityTime" : 1},
+                {"powerTime" : 2}
+            ],
+            "empowerment" : [
+                {"qualityTime" : 2},
+                {"powerTime" : 15}
+            ],
+            "leveled" : [
+                {"qualityTime" : 30},
+                {"powerTime" : 720}
+            ]
+        }
+    ],
+
+    "comment4" : "Linked Item relates to an item connected to the power of Enchantment. Depending on the level of connection, a differnt multiplier is used for the enchantment time and preperation time",
+    "linkedItem" : [
+        {
+            "name" : "None",
+            "multiplier" : 1
+        },
+        {
+            "name" : "Linked",
+            "multiplier" : 0.9
+        },
+        {
+            "name" : "Connected",
+            "multiplier" : 0.75
+        },
+        {
+            "name" : "Integral",
+            "multiplier" : 0.5
+        }
+    ]
+}

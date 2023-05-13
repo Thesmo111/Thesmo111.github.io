@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enchantment Calculator for Lords of Gossamer and Shadow</title>
+        <script type="module" src="script.js" defer></script>
+        <link rel = "stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div id="timeDisplay">
+                <p id="timeDisplayText">Enchantment time: 0 days 0 hours 0 minutes<br>
+                    Preperation Required: 0 hours 0 minutes</p>
+            </div>
+            <div class="displayWrapper">
+                <div id="selectedDisplay">
+                    <table id="headerTable">
+                        <tr>
+                            <th id="enchantCell">Enchantment:</th>
+                            <th id="costCell">Point Cost:</th>
+                        </tr>
+                    </table>
+                    <table id="displayTable">
+                        <tbody id="tableBody" >
+                            <tr>
+                                <th id="enchantCell" style="font-weight: normal;">Unique (1)</th>
+                                <th id="costCell" style="font-weight: normal;">x1</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="levelDisplay"></div>
+            </div>
+            <div class="options">
+                <div id="qualities" class="qualityDisplay"></div>
+                <div id="powers" class="powerDisplay"></div>
+            </div>
+        </div>
+    </body>
+</html>
