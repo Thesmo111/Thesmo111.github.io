@@ -138,15 +138,15 @@ label.otherOptions {
     }
 
     div .qualityDisplay{
-        width: 100%;
-        clear: both;
+        width: 98%;
         float: none;
+        margin: 0px, 5px;
     }
 
     div .powerDisplay{
-        width: 100%;
-        clear: both;
+        width: 98%;
         float: none;
+        margin: 0px, 5px;
     }
 
     div #selectedDisplay{
@@ -161,5 +161,13 @@ label.otherOptions {
         margin:auto;
         float: none;
         clear: both;
+    }
+
+    div .optionWrapper{
+        display:-webkit-flex
+    }
+
+    div .entryDiv{
+        height: 80px;
     }
 }
