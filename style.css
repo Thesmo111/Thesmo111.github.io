@@ -140,11 +140,13 @@ label.otherOptions {
     div .qualityDisplay{
         width: 100%;
         clear: both;
+        float: none;
     }
 
     div .powerDisplay{
         width: 100%;
         clear: both;
+        float: none;
     }
 
     div #selectedDisplay{
