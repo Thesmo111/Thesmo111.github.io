@@ -9,7 +9,7 @@
     
 /* hero background image */
 .bgimage {
-    height:50vh;
+    height:65vh;
     background: url('images/banner\ photo.jpg');
     background-size:cover;
     position:relative;

@@ -1,4 +1,5 @@
-const header = document.querySelector(".navbar")
+const header = document.querySelector(".navbar");
+const navButton = document.querySelector(".navbar-toggler");
 
 window.onscroll = function() {
     var top = window.scrollY;
@@ -9,3 +10,8 @@ window.onscroll = function() {
         header.classList.remove('navbarbg');
     }
 }
+
+navButton.addEventListener("click", () =>{
+    const expanded = navButton.getAttribute("aria-expanded") === "true";
+    navButton.setAttribute("aria-expanded", !expanded);
+});
