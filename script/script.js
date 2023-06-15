@@ -10,8 +10,3 @@ window.onscroll = function() {
         header.classList.remove('navbarbg');
     }
 }
-
-navButton.addEventListener("click", () =>{
-    const expanded = navButton.getAttribute("aria-expanded") === "true";
-    navButton.setAttribute("aria-expanded", !expanded);
-});
